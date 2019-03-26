@@ -1,0 +1,8 @@
+/* pages/self/issues/issues.wxss */
+.container-issues{
+  background-color: #f6f6f6;
+  padding: 0;
+  padding-top: 30rpx;
+  font-size: 11pt;
+  box-sizing: border-box;
+}

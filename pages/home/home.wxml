@@ -1,0 +1,22 @@
+<!--pages/home/home.wxml-->
+<view class="container-home">
+     <view class='sign'>
+        <image src="/image/home/index1.jpg" bindtap='turnToEntry'></image>
+        <text>录入单据</text>
+    </view>
+    <view class='sign'>
+        <image src="/image/home/index2.jpg" bindtap='turnToSpeEntry'></image>
+        <text>特殊录入</text>
+    </view>
+    
+    <view class='sign'>
+        <image src="/image/home/index3.jpg" bindtap='turnToAudit'></image>
+        <text>表单审核</text>
+    </view>
+    
+    <view class='sign'>
+        <image src="/image/home/index5.jpg" bindtap='turnToRecords'></image>
+        <text>历史查询</text>
+    </view>
+
+</view>

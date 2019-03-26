@@ -1,0 +1,60 @@
+<!--pages/self/about/about.wxml-->
+<view class="container-about">
+  <view class="header">
+     <image class="title" src="/image/self/about/title.jpg"></image>
+  </view>
+  <view class="content">
+    <!-- 版本信息 -->
+    <view class="version">
+      <view class="version-title">
+        <text class="title-name">{{title}}</text>
+        <text class="version-text">{{version}}</text>
+        <text class="version-text">内测</text>
+      </view>
+      <view bindtap="toggleLog">
+        <text class="version-log-link update-log" wx:if="{{!showLog}}">更新日志</text> 
+        <text class="version-log-link" wx:else>简介</text> 
+      </view>
+    </view>
+    <!-- 描述 -->
+    <view class="describe" wx:if="{{!showLog}}">
+        <text class="desc-title">简介</text>
+        <view class="desc-list">
+          <text class="desc-list-item">官网：http://www.bjghy.com.cn/</text>
+        </view>
+        <text class="desc-content">北规院医疗是一款微信小程序，用于提供北规院内部员工使用，减少老员工报销单据排队的困难，无需下载与安装即可在微信内被便捷地获取和传播，提供友好的使用体验。</text>
+        <text class="desc-content">小程序集录入、查询、审核等功能于一身。</text>
+        <text class="desc-title">咨询</text> 
+        <view class="desc-list">
+          <text class="desc-list-item">软件联系人：{{developer.depart}}--{{developer.name}}--{{developer.tel}}</text>
+          <text class="desc-list-item">流程使用联系人：{{manager.depart}}--{{manager.name}}--{{manager.tel}}</text>
+        </view>
+
+    </view>
+    <!-- log -->
+    <view class="log-list" wx:else>
+      <view class="describe">
+        <view class="desc-title">
+          <text class="desc-v">v0.0.1 内测版</text>
+          <text class="desc-time">2019.03.24</text>
+        </view>
+        <text class="desc-content">开发系统</text>
+        <view class="desc-list">
+          <text class="desc-list-item">开发功能</text>
+          <text class="desc-list-item">待测试</text>
+        </view>
+      </view>
+    </view>
+ 
+    <!-- <text>{{msg.core}}</text>
+    <text>有任何软件问题,请联系{{data.developer.tel}},{{data.developer.name}}</text> -->
+   <view class="footer">
+      <view class="footer-hecore">
+        <image src="/images/self/about/hecore.png"></image>
+        <text>hecore</text>
+      </view>
+      <text>独立开发</text>
+      <text>Copyright @ {{year}} All Rights Reserved</text>
+  </view>
+  </view>
+</view>

@@ -1,0 +1,22 @@
+<!--pages/home/record/record.wxml-->
+<!-- 引入模板 -->
+<import src="/pages/template/ordertmp/ordertmp.wxml"/>
+
+<view class="container">
+  <!-- load view -->
+  <view wx:if="{{remind}}" class="remind-box">
+        <image wx:if="{{remind == '加载中'}}" class="remind-img" src="/images/index/loading.gif"></image>
+        <block wx:else>
+          <image class="remind-img" src="/images/index/nothing.png"></image>
+          <text class="remind-text">{{remind}}</text>
+        </block>
+    </view>
+  <block wx:else>
+    <view class="main">
+      <view class="content">
+        录入数据
+      </view>
+    </view>
+  </block>
+
+</view>

@@ -1,0 +1,16 @@
+<!--pages/entry/entry.wxml-->
+<view class="container">
+    <view class="fix_tip {{offline?'active':''}}">
+        <text>离线缓存模式</text>
+    </view>
+  l
+  <view class='content1'>
+    <text>录入</text>
+  </view> 
+  <view class='content2'>
+    <text>录入详情</text>
+  </view>
+  <!-- <view class='content2'>
+    <text>已提交</text>
+  </view> -->
+</view>

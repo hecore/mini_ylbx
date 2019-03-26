@@ -1,0 +1,36 @@
+/**app.wxss**/
+text {
+  font-family: Arial;
+  font-size: 28rpx;
+}
+
+.container{
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding-bottom: 100rpx;
+  box-sizing: border-box;
+}
+
+.container-home{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  flex: 1;
+  min-height: 100%;
+  padding-bottom: 100rpx;
+  box-sizing: border-box;
+}
+/* .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}  */

@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/self/self",
+    "pages/entry/entry",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/chart/chart",
+    "pages/speentry/speentry",
+    "pages/audit/audit",
+    "pages/records/records",
+    "pages/self/about/about",
+    "pages/self/bind/bind",
+    "pages/self/issues/issues",
+    "pages/home/record/record",
+    "pages/home/sperecord/sperecord",
+    "pages/home/audit/audit",
+    "pages/template/ordertmp/ordertmp"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#3367d6",
+    "navigationBarTitleText": "Mini北规院医疗",
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#7acfa6",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#7f848a",
+    "selectedColor": "#7f848a",
+    "backgroundColor": "#f7f6fb",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "image/icon/home.png",
+        "selectedIconPath": "image/icon/home@active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/chart/chart",
+        "iconPath": "image/icon/chart.png",
+        "selectedIconPath": "image/icon/chart@active.png",
+        "text": "图表"
+      },
+      {
+        "pagePath": "pages/self/self",
+        "iconPath": "image/icon/self.png",
+        "selectedIconPath": "image/icon/self@active.png",
+        "text": "个人"
+      }
+    ]
+  },
+  "debug": true
+}
